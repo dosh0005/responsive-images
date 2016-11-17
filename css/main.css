@@ -28,26 +28,29 @@ ul {
 li {
     float: left;
     width: 100%;
-    padding: 0 4% 4% 0;
+    text-align: center;
 }
 
-picture {}
+picture {
+    
+}
 
 img {
+    display: block;
     max-width: 90%;
-    margin: 0 4% 4% 0;
+    margin: 0 4% 0;
 }
 
 @media screen and (min-width: 600px) {
     li {
         width: 50%;
-        padding: 0 20px;
+        padding-left: 5%;
     }
 }
 
 @media screen and (min-width: 1200px) {
     li {
         width: 25%;
-        padding: 0 15px;
+        padding: 0 1%;
     }
 }
